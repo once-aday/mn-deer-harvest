@@ -1,0 +1,1137 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20110404</CreaDate>
+		<CreaTime>11572600</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">deer_harvest_2009</itemName>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\g46palgdrftp001\Z\var\ftp\gdrs_temp\update\us_mn_state_dnr\env_mn_deer_harvest\shp\deer_harvest_2009.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<itemSize Sync="TRUE">0.000</itemSize>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_15N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-93.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26915]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26915&lt;/WKID&gt;&lt;LatestWKID&gt;26915&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+			</coordRef>
+			<lineage>
+				<Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110404" Time="115729">CopyFeatures P:\GIS\zeb\nra_dhrv09py3.shp V:\gdrs\data\pub\us_mn_state_dnr\env_mn_deer_harvest\env_mn_deer_harvest.gdb\nra_dhrv09py3 # 0 0 0</Process>
+				<Process ToolSource="C:\program files\arcgis\server\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20200411" Time="003225">FeatureClassToFeatureClass /var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009 /var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\shp deer_harvest_2009.shp # "OBJECTID "OBJECTID" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,OBJECTID,-1,-1;FID_1 "FID_1" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FID_1,-1,-1;ACRES "ACRES" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ACRES,-1,-1;ZONE_ "ZONE_" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ZONE_,-1,-1;TOTPASQMI "TOTPASQMI" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,TOTPASQMI,-1,-1;SQMILEWATE "SQMILEWATE" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,SQMILEWATE,-1,-1;SQMILELAND "SQMILELAND" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,SQMILELAND,-1,-1;NEWBOUND "NEWBOUND" true true false 3 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,NEWBOUND,-1,-1;SYSZONEA "SYSZONEA" true true false 30 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,SYSZONEA,-1,-1;SYSZONEB "SYSZONEB" true true false 30 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,SYSZONEB,-1,-1;SYSARCHMUZ "SYSARCHMUZ" true true false 30 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,SYSARCHMUZ,-1,-1;SHAPE_LENG "SHAPE_LENG" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,SHAPE_LENG,-1,-1;EARLYSEASN "EARLYSEASN" true true false 3 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,EARLYSEASN,-1,-1;NEW_PA "NEW_PA" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,NEW_PA,-1,-1;KILLBLOCK "KILLBLOCK" true true false 2 Short 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,KILLBLOCK,-1,-1;AM_FI_REG "AM_FI_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_FI_REG,-1,-1;AF_FI_REG "AF_FI_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_FI_REG,-1,-1;FM_FI_REG "FM_FI_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_FI_REG,-1,-1;FF_FI_REG "FF_FI_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_FI_REG,-1,-1;AM_AR_REG "AM_AR_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_AR_REG,-1,-1;AF_AR_REG "AF_AR_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_AR_REG,-1,-1;FM_AR_REG "FM_AR_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_AR_REG,-1,-1;FF_AR_REG "FF_AR_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_AR_REG,-1,-1;AM_MU_REG "AM_MU_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_MU_REG,-1,-1;AF_MU_REG "AF_MU_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_MU_REG,-1,-1;FM_MU_REG "FM_MU_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_MU_REG,-1,-1;FF_MU_REG "FF_MU_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_MU_REG,-1,-1;AM_FI_MUL "AM_FI_MUL" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_FI_MUL,-1,-1;AM_FI_IHP "AM_FI_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_FI_IHP,-1,-1;AF_FI_IHP "AF_FI_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_FI_IHP,-1,-1;FM_FI_IHP "FM_FI_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_FI_IHP,-1,-1;FF_FI_IHP "FF_FI_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_FI_IHP,-1,-1;AM_AR_IHP "AM_AR_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_AR_IHP,-1,-1;AF_AR_IHP "AF_AR_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_AR_IHP,-1,-1;FM_AR_IHP "FM_AR_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_AR_IHP,-1,-1;FF_AR_IHP "FF_AR_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_AR_IHP,-1,-1;AM_MU_IHP "AM_MU_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_MU_IHP,-1,-1;AF_MU_IHP "AF_MU_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_MU_IHP,-1,-1;FM_MU_IHP "FM_MU_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_MU_IHP,-1,-1;FF_MU_IHP "FF_MU_IHP" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_MU_IHP,-1,-1;AM_LF "AM_LF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_LF,-1,-1;AF_LF "AF_LF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_LF,-1,-1;FM_LF "FM_LF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_LF,-1,-1;FF_LF "FF_LF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_LF,-1,-1;AM_LA "AM_LA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_LA,-1,-1;AF_LA "AF_LA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_LA,-1,-1;FM_LA "FM_LA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_LA,-1,-1;FF_LA "FF_LA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_LA,-1,-1;AM_LM "AM_LM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_LM,-1,-1;AF_LM "AF_LM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_LM,-1,-1;FM_LM "FM_LM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_LM,-1,-1;FF_LM "FF_LM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_LM,-1,-1;AM_AS_F "AM_AS_F" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_AS_F,-1,-1;AF_AS_F "AF_AS_F" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_AS_F,-1,-1;FM_AS_F "FM_AS_F" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_AS_F,-1,-1;FF_AS_F "FF_AS_F" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_AS_F,-1,-1;AM_AS_A "AM_AS_A" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_AS_A,-1,-1;AF_AS_A "AF_AS_A" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_AS_A,-1,-1;FM_AS_A "FM_AS_A" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_AS_A,-1,-1;FF_AS_A "FF_AS_A" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_AS_A,-1,-1;AM_AS_M "AM_AS_M" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_AS_M,-1,-1;AF_AS_M "AF_AS_M" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_AS_M,-1,-1;FM_AS_M "FM_AS_M" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_AS_M,-1,-1;FF_AS_M "FF_AS_M" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_AS_M,-1,-1;AM_YF "AM_YF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_YF,-1,-1;AF_YF "AF_YF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_YF,-1,-1;FM_YF "FM_YF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_YF,-1,-1;FF_YF "FF_YF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_YF,-1,-1;AM_YA "AM_YA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_YA,-1,-1;AF_YA "AF_YA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_YA,-1,-1;FM_YA "FM_YA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_YA,-1,-1;FF_YA "FF_YA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_YA,-1,-1;AM_YM "AM_YM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_YM,-1,-1;AF_YM "AF_YM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_YM,-1,-1;FM_YM "FM_YM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_YM,-1,-1;FF_YM "FF_YM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_YM,-1,-1;AF_EARLY "AF_EARLY" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_EARLY,-1,-1;FM_EARLY "FM_EARLY" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_EARLY,-1,-1;FF_EARLY "FF_EARLY" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_EARLY,-1,-1;BUCKGUN "BUCKGUN" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,BUCKGUN,-1,-1;ANTLGUN "ANTLGUN" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTLGUN,-1,-1;BUCKBOW "BUCKBOW" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,BUCKBOW,-1,-1;ANTLBOW "ANTLBOW" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTLBOW,-1,-1;BUCKMUZ "BUCKMUZ" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,BUCKMUZ,-1,-1;ANTLMUZ "ANTLMUZ" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTLMUZ,-1,-1;TOTALBUCK "TOTALBUCK" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,TOTALBUCK,-1,-1;TOTALANTL "TOTALANTL" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,TOTALANTL,-1,-1;TOTALHARV "TOTALHARV" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,TOTALHARV,-1,-1;BUCKSQMILE "BUCKSQMILE" true true false 4 Float 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,BUCKSQMILE,-1,-1;ANTLSQMILE "ANTLSQMILE" true true false 4 Float 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTLSQMILE,-1,-1;TOTALSQMIL "TOTALSQMIL" true true false 4 Float 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,TOTALSQMIL,-1,-1;ANTL_F_REG "ANTL_F_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_F_REG,-1,-1;ANTL_A_REG "ANTL_A_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_A_REG,-1,-1;ANTL_M_REG "ANTL_M_REG" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_M_REG,-1,-1;ANTL_FI_IH "ANTL_FI_IH" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_FI_IH,-1,-1;ANTL_AR_IH "ANTL_AR_IH" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_AR_IH,-1,-1;ANTL_MU_IH "ANTL_MU_IH" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_MU_IH,-1,-1;ANTL_LF "ANTL_LF" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_LF,-1,-1;ANTL_LA "ANTL_LA" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_LA,-1,-1;ANTL_LM "ANTL_LM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_LM,-1,-1;ANTL_FI_AS "ANTL_FI_AS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_FI_AS,-1,-1;ANTL_AR_AS "ANTL_AR_AS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_AR_AS,-1,-1;ANTL_MU_AS "ANTL_MU_AS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_MU_AS,-1,-1;ANTL_FI_Y "ANTL_FI_Y" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_FI_Y,-1,-1;ANTL_AR_Y "ANTL_AR_Y" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_AR_Y,-1,-1;ANTL_MU_Y "ANTL_MU_Y" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_MU_Y,-1,-1;ANTL_EARLY "ANTL_EARLY" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_EARLY,-1,-1;AM_FI_DIS "AM_FI_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_FI_DIS,-1,-1;FM_FI_DIS "FM_FI_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_FI_DIS,-1,-1;AF_FI_DIS "AF_FI_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_FI_DIS,-1,-1;FF_FI_DIS "FF_FI_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_FI_DIS,-1,-1;AM_AR_DIS "AM_AR_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_AR_DIS,-1,-1;FM_AR_DIS "FM_AR_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_AR_DIS,-1,-1;AF_AR_DIS "AF_AR_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_AR_DIS,-1,-1;FF_AR_DIS "FF_AR_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_AR_DIS,-1,-1;AM_MU_DIS "AM_MU_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AM_MU_DIS,-1,-1;FM_MU_DIS "FM_MU_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FM_MU_DIS,-1,-1;AF_MU_DIS "AF_MU_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,AF_MU_DIS,-1,-1;FF_MU_DIS "FF_MU_DIS" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,FF_MU_DIS,-1,-1;ANTL_FI_DI "ANTL_FI_DI" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_FI_DI,-1,-1;ANTL_AR_DI "ANTL_AR_DI" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_AR_DI,-1,-1;ANTL_MU_DI "ANTL_MU_DI" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,ANTL_MU_DI,-1,-1;Shape_Le_1 "Shape_Length" false true true 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\env_mn_deer_harvest\fgdb\env_mn_deer_harvest.gdb\deer_harvest_2009,Shape_Area,-1,-1" #</Process>
+			</lineage>
+		</DataProperties>
+		<SyncDate>20200411</SyncDate>
+		<SyncTime>00322500</SyncTime>
+		<ModDate>20200411</ModDate>
+		<ModTime>00322500</ModTime>
+	</Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Professional x64 Edition Version 5.2 (Build 3790) Service Pack 2; Esri ArcGIS 10.4.1.5686</envirDesc>
+		<dataLang>
+			<languageCode value="eng" country="USA"/>
+			<countryCode value="US" Sync="TRUE"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">deer_harvest_2009</resTitle>
+			<presForm>
+				<PresFormCd value="005"/>
+			</presForm>
+		</idCitation>
+		<descKeys>
+			<thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+			<keyword Sync="TRUE">002</keyword>
+		</descKeys>
+		<spatRpType>
+			<SpatRepTypCd value="001"/>
+		</spatRpType>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode value="eng"/>
+		<countryCode value="US" Sync="TRUE"/>
+	</mdLang>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26915"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.13(3.0.1)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm Name="deer_harvest_2009">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom code="4" Sync="TRUE"/>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="deer_harvest_2009">
+				<geoObjTyp>
+					<GeoObjTypCd value="002" Sync="TRUE"/>
+				</geoObjTyp>
+				<geoObjCnt Sync="TRUE">0</geoObjCnt>
+			</geometObjs>
+			<topLvl>
+				<TopoLevCd value="001" Sync="TRUE"/>
+			</topLvl>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="deer_harvest_2009">
+			<enttyp>
+				<enttypl Sync="TRUE">deer_harvest_2009</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FID_1</attrlabl>
+				<attalias Sync="TRUE">FID_1</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACRES</attrlabl>
+				<attalias Sync="TRUE">ACRES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ZONE_</attrlabl>
+				<attalias Sync="TRUE">ZONE_</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TOTPASQMI</attrlabl>
+				<attalias Sync="TRUE">TOTPASQMI</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SQMILEWATE</attrlabl>
+				<attalias Sync="TRUE">SQMILEWATE</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SQMILELAND</attrlabl>
+				<attalias Sync="TRUE">SQMILELAND</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NEWBOUND</attrlabl>
+				<attalias Sync="TRUE">NEWBOUND</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SYSZONEA</attrlabl>
+				<attalias Sync="TRUE">SYSZONEA</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SYSZONEB</attrlabl>
+				<attalias Sync="TRUE">SYSZONEB</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SYSARCHMUZ</attrlabl>
+				<attalias Sync="TRUE">SYSARCHMUZ</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE_LENG</attrlabl>
+				<attalias Sync="TRUE">SHAPE_LENG</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EARLYSEASN</attrlabl>
+				<attalias Sync="TRUE">EARLYSEASN</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NEW_PA</attrlabl>
+				<attalias Sync="TRUE">NEW_PA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">KILLBLOCK</attrlabl>
+				<attalias Sync="TRUE">KILLBLOCK</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_FI_REG</attrlabl>
+				<attalias Sync="TRUE">AM_FI_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_FI_REG</attrlabl>
+				<attalias Sync="TRUE">AF_FI_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_FI_REG</attrlabl>
+				<attalias Sync="TRUE">FM_FI_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_FI_REG</attrlabl>
+				<attalias Sync="TRUE">FF_FI_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_AR_REG</attrlabl>
+				<attalias Sync="TRUE">AM_AR_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_AR_REG</attrlabl>
+				<attalias Sync="TRUE">AF_AR_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_AR_REG</attrlabl>
+				<attalias Sync="TRUE">FM_AR_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_AR_REG</attrlabl>
+				<attalias Sync="TRUE">FF_AR_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_MU_REG</attrlabl>
+				<attalias Sync="TRUE">AM_MU_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_MU_REG</attrlabl>
+				<attalias Sync="TRUE">AF_MU_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_MU_REG</attrlabl>
+				<attalias Sync="TRUE">FM_MU_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_MU_REG</attrlabl>
+				<attalias Sync="TRUE">FF_MU_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_FI_MUL</attrlabl>
+				<attalias Sync="TRUE">AM_FI_MUL</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_FI_IHP</attrlabl>
+				<attalias Sync="TRUE">AM_FI_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_FI_IHP</attrlabl>
+				<attalias Sync="TRUE">AF_FI_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_FI_IHP</attrlabl>
+				<attalias Sync="TRUE">FM_FI_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_FI_IHP</attrlabl>
+				<attalias Sync="TRUE">FF_FI_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_AR_IHP</attrlabl>
+				<attalias Sync="TRUE">AM_AR_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_AR_IHP</attrlabl>
+				<attalias Sync="TRUE">AF_AR_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_AR_IHP</attrlabl>
+				<attalias Sync="TRUE">FM_AR_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_AR_IHP</attrlabl>
+				<attalias Sync="TRUE">FF_AR_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_MU_IHP</attrlabl>
+				<attalias Sync="TRUE">AM_MU_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_MU_IHP</attrlabl>
+				<attalias Sync="TRUE">AF_MU_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_MU_IHP</attrlabl>
+				<attalias Sync="TRUE">FM_MU_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_MU_IHP</attrlabl>
+				<attalias Sync="TRUE">FF_MU_IHP</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_LF</attrlabl>
+				<attalias Sync="TRUE">AM_LF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_LF</attrlabl>
+				<attalias Sync="TRUE">AF_LF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_LF</attrlabl>
+				<attalias Sync="TRUE">FM_LF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_LF</attrlabl>
+				<attalias Sync="TRUE">FF_LF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_LA</attrlabl>
+				<attalias Sync="TRUE">AM_LA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_LA</attrlabl>
+				<attalias Sync="TRUE">AF_LA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_LA</attrlabl>
+				<attalias Sync="TRUE">FM_LA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_LA</attrlabl>
+				<attalias Sync="TRUE">FF_LA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_LM</attrlabl>
+				<attalias Sync="TRUE">AM_LM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_LM</attrlabl>
+				<attalias Sync="TRUE">AF_LM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_LM</attrlabl>
+				<attalias Sync="TRUE">FM_LM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_LM</attrlabl>
+				<attalias Sync="TRUE">FF_LM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_AS_F</attrlabl>
+				<attalias Sync="TRUE">AM_AS_F</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_AS_F</attrlabl>
+				<attalias Sync="TRUE">AF_AS_F</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_AS_F</attrlabl>
+				<attalias Sync="TRUE">FM_AS_F</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_AS_F</attrlabl>
+				<attalias Sync="TRUE">FF_AS_F</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_AS_A</attrlabl>
+				<attalias Sync="TRUE">AM_AS_A</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_AS_A</attrlabl>
+				<attalias Sync="TRUE">AF_AS_A</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_AS_A</attrlabl>
+				<attalias Sync="TRUE">FM_AS_A</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_AS_A</attrlabl>
+				<attalias Sync="TRUE">FF_AS_A</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_AS_M</attrlabl>
+				<attalias Sync="TRUE">AM_AS_M</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_AS_M</attrlabl>
+				<attalias Sync="TRUE">AF_AS_M</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_AS_M</attrlabl>
+				<attalias Sync="TRUE">FM_AS_M</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_AS_M</attrlabl>
+				<attalias Sync="TRUE">FF_AS_M</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_YF</attrlabl>
+				<attalias Sync="TRUE">AM_YF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_YF</attrlabl>
+				<attalias Sync="TRUE">AF_YF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_YF</attrlabl>
+				<attalias Sync="TRUE">FM_YF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_YF</attrlabl>
+				<attalias Sync="TRUE">FF_YF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_YA</attrlabl>
+				<attalias Sync="TRUE">AM_YA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_YA</attrlabl>
+				<attalias Sync="TRUE">AF_YA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_YA</attrlabl>
+				<attalias Sync="TRUE">FM_YA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_YA</attrlabl>
+				<attalias Sync="TRUE">FF_YA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_YM</attrlabl>
+				<attalias Sync="TRUE">AM_YM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_YM</attrlabl>
+				<attalias Sync="TRUE">AF_YM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_YM</attrlabl>
+				<attalias Sync="TRUE">FM_YM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_YM</attrlabl>
+				<attalias Sync="TRUE">FF_YM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_EARLY</attrlabl>
+				<attalias Sync="TRUE">AF_EARLY</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_EARLY</attrlabl>
+				<attalias Sync="TRUE">FM_EARLY</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_EARLY</attrlabl>
+				<attalias Sync="TRUE">FF_EARLY</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BUCKGUN</attrlabl>
+				<attalias Sync="TRUE">BUCKGUN</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTLGUN</attrlabl>
+				<attalias Sync="TRUE">ANTLGUN</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BUCKBOW</attrlabl>
+				<attalias Sync="TRUE">BUCKBOW</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTLBOW</attrlabl>
+				<attalias Sync="TRUE">ANTLBOW</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BUCKMUZ</attrlabl>
+				<attalias Sync="TRUE">BUCKMUZ</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTLMUZ</attrlabl>
+				<attalias Sync="TRUE">ANTLMUZ</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TOTALBUCK</attrlabl>
+				<attalias Sync="TRUE">TOTALBUCK</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TOTALANTL</attrlabl>
+				<attalias Sync="TRUE">TOTALANTL</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TOTALHARV</attrlabl>
+				<attalias Sync="TRUE">TOTALHARV</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BUCKSQMILE</attrlabl>
+				<attalias Sync="TRUE">BUCKSQMILE</attalias>
+				<attrtype Sync="TRUE">Single</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTLSQMILE</attrlabl>
+				<attalias Sync="TRUE">ANTLSQMILE</attalias>
+				<attrtype Sync="TRUE">Single</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TOTALSQMIL</attrlabl>
+				<attalias Sync="TRUE">TOTALSQMIL</attalias>
+				<attrtype Sync="TRUE">Single</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_F_REG</attrlabl>
+				<attalias Sync="TRUE">ANTL_F_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_A_REG</attrlabl>
+				<attalias Sync="TRUE">ANTL_A_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_M_REG</attrlabl>
+				<attalias Sync="TRUE">ANTL_M_REG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_FI_IH</attrlabl>
+				<attalias Sync="TRUE">ANTL_FI_IH</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_AR_IH</attrlabl>
+				<attalias Sync="TRUE">ANTL_AR_IH</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_MU_IH</attrlabl>
+				<attalias Sync="TRUE">ANTL_MU_IH</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_LF</attrlabl>
+				<attalias Sync="TRUE">ANTL_LF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_LA</attrlabl>
+				<attalias Sync="TRUE">ANTL_LA</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_LM</attrlabl>
+				<attalias Sync="TRUE">ANTL_LM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_FI_AS</attrlabl>
+				<attalias Sync="TRUE">ANTL_FI_AS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_AR_AS</attrlabl>
+				<attalias Sync="TRUE">ANTL_AR_AS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_MU_AS</attrlabl>
+				<attalias Sync="TRUE">ANTL_MU_AS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_FI_Y</attrlabl>
+				<attalias Sync="TRUE">ANTL_FI_Y</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_AR_Y</attrlabl>
+				<attalias Sync="TRUE">ANTL_AR_Y</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_MU_Y</attrlabl>
+				<attalias Sync="TRUE">ANTL_MU_Y</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_EARLY</attrlabl>
+				<attalias Sync="TRUE">ANTL_EARLY</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_FI_DIS</attrlabl>
+				<attalias Sync="TRUE">AM_FI_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_FI_DIS</attrlabl>
+				<attalias Sync="TRUE">FM_FI_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_FI_DIS</attrlabl>
+				<attalias Sync="TRUE">AF_FI_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_FI_DIS</attrlabl>
+				<attalias Sync="TRUE">FF_FI_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_AR_DIS</attrlabl>
+				<attalias Sync="TRUE">AM_AR_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_AR_DIS</attrlabl>
+				<attalias Sync="TRUE">FM_AR_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_AR_DIS</attrlabl>
+				<attalias Sync="TRUE">AF_AR_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_AR_DIS</attrlabl>
+				<attalias Sync="TRUE">FF_AR_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AM_MU_DIS</attrlabl>
+				<attalias Sync="TRUE">AM_MU_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FM_MU_DIS</attrlabl>
+				<attalias Sync="TRUE">FM_MU_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AF_MU_DIS</attrlabl>
+				<attalias Sync="TRUE">AF_MU_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FF_MU_DIS</attrlabl>
+				<attalias Sync="TRUE">FF_MU_DIS</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_FI_DI</attrlabl>
+				<attalias Sync="TRUE">ANTL_FI_DI</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_AR_DI</attrlabl>
+				<attalias Sync="TRUE">ANTL_AR_DI</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANTL_MU_DI</attrlabl>
+				<attalias Sync="TRUE">ANTL_MU_DI</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Le_1</attrlabl>
+				<attalias Sync="TRUE">Shape_Le_1</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Area</attrlabl>
+				<attalias Sync="TRUE">Shape_Area</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20200411</mdDateSt>
+</metadata>
