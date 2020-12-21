@@ -35,9 +35,10 @@
     .legend {
             line-height: 18px;
             color: whitesmoke;
+            text-align: left;
             padding-right: 10px;
             padding-left: 10px;
-            width: 150px;
+            width: 230px;
             height: 75px
         }
         .legend i {
@@ -83,10 +84,14 @@
               They are mapped here in the instances when there is geographic overlap with permit areas
                that have remained unaltered since 2009 (e.g. Perpetual Permit Areas). </p>
                <p>"Throughout Minnesota, hunting activities related to wild white-tailed deer generate over 500 million dollars for Minnesota’s economy, and drives the economic engine for the Minnesota Department of Natural Resources (MNDNR), Division of Fish and Wildlife.""
-
+                <p>
                 "The discovery of CWD in wild cervid populations has negatively affected hunter numbers and local economies in areas where it exists (Vaske et al. 2004, Vaske and Lyon 2011).""
+                <p>
                 source: https://files.dnr.state.mn.us/wildlife/research/health/disease/cwd/cwd_responseplan.pdf
-                </p>
+                <p>
+                Other Data Sources:
+                https://gisdata.mn.gov/dataset/env-mn-deer-harvest
+              </p>
         </section>
       </aside>
     </section>
@@ -95,7 +100,7 @@
         <ul class="list-unstyled">
           <li>Devin Rocco</li>
           <li>12/21/2020</li>
-          <li><a href="#">meta data</a></li>
+          <!-- <li><a href="#">meta data</a></li> -->
         </ul>
       </div>
     </footer>
@@ -122,7 +127,7 @@
         // Color legend items based on label name
           function getColor(d) {
                 return d == 'Deer Permit Areas' ? 'Red' :
-                       d == 'PAs, Reported CWD'  ? 'Yellow' :
+                       d == 'Permit Areas with reported CWD'  ? 'Yellow' :
                                   '#FFEDA0';
             };
 
@@ -147,7 +152,7 @@
         legend.onAdd = function (map) {
 
             var div = L.DomUtil.create('div', 'info legend'),
-                grades = ["Deer Permit Areas", "PAs, Reported CWD"],
+                grades = ["Deer Permit Areas", "Permit Areas with reported CWD"],
                 labels = [];
 
             // loop through grades and label with a colored circle for each grade
