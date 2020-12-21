@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
   <style>
     #map {
       height: 540px;
@@ -30,6 +31,32 @@
 
     /* Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 1200px) {}
+
+    .legend {
+            line-height: 18px;
+            color: whitesmoke;
+            padding-right: 10px;
+            padding-left: 10px;
+            width: 150px;
+            height: 75px
+        }
+        .legend i {
+            width: 40px;
+            height: 30px;
+            float: left;
+            margin-right: 1px;
+            opacity: 0.7;
+            padding-bottom: 0px
+        }
+        .legend .circle {
+          border-radius: 50%;
+          width: 10px;
+          height: 10px;
+          margin-top: 4px;
+          margin-right: 10px;
+          padding-top: 0px
+
+        }
   </style>
 </head>
 
@@ -38,7 +65,7 @@
   <div class="container-fluid">
     <header class="row text-white py-3">
       <div class="col mx-2">
-        <h1 class="">Maa title</h1>
+        <h1 class="">Minnesota Deer Harvest - Total Harvest Review and Possible Associations with Chronic Wasting Disease</h1>
       </div>
     </header>
 
@@ -49,23 +76,25 @@
       <aside id="about" class="col-12 col-md-4 col-lg-3 text-white py-2 bg-secondary overflow-auto">
         <section>
           <h2>About this map</h2>
-          <p>A fan brush is a fantastic piece of equipment. Use it. Make friends with it. We're not trying to teach you
-            a thing to copy. We're just here to teach you a technique, then let you loose into the world. We'll put a
-            happy little sky in here.</p>
-          <p>We'll paint one happy little tree right here. The secret to doing anything is believing that you can do it.
-            Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. Let's make
-            a nice big leafy tree.</p>
-          <p>You are only limited by your imagination. We'll do another happy little painting. Work on one thing at a
-            time. Don't get carried away - we have plenty of time. Look at them little rascals. We'll put all the little
-            clouds in and let them dance around and have fun. You can spend all day playing with mountains.</p>
+          <p>The Minnesota Geospatial Commons (https://gisdata.mn.gov/) has published Deer Harvest Data from 1993 to 2014.
+            Here we have compiled all data available from 2009 onwards for Permit Areas that have not had their geographic boundaries altered (i.e. Perpetual Permit Areas).</p>
+          <p>Additionally, the Minnesota Department of Natural Resources has made reporting data available about the devastating Chronic Wasting Disease that effects
+             deer and other animals. There are a few permit areas that have had reports of CWD infected deer.
+              They are mapped here in the instances when there is geographic overlap with permit areas
+               that have remained unaltered since 2009 (e.g. Perpetual Permit Areas). </p>
+               <p>"Throughout Minnesota, hunting activities related to wild white-tailed deer generate over 500 million dollars for Minnesota’s economy, and drives the economic engine for the Minnesota Department of Natural Resources (MNDNR), Division of Fish and Wildlife.""
+
+                "The discovery of CWD in wild cervid populations has negatively affected hunter numbers and local economies in areas where it exists (Vaske et al. 2004, Vaske and Lyon 2011).""
+                source: https://files.dnr.state.mn.us/wildlife/research/health/disease/cwd/cwd_responseplan.pdf
+                </p>
         </section>
       </aside>
     </section>
     <footer class="row text-white py-3">
       <div class="col mx-2">
         <ul class="list-unstyled">
-          <li>author</li>
-          <li>date</li>
+          <li>Devin Rocco</li>
+          <li>12/21/2020</li>
           <li><a href="#">meta data</a></li>
         </ul>
       </div>
@@ -83,10 +112,28 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
+
+  function getRadius(area) {
+                var radius = Math.sqrt(area/Math.PI);
+                return radius * .6;  
+            };
+        // Color legend items based on label name
+          function getColor(d) {
+                return d == 'Deer Permit Areas' ? 'Red' :
+                       d == 'PAs, Reported CWD'  ? 'Yellow' :
+                                  '#FFEDA0';
+            };
+
+    const deerHarvestData = d3.json('data/deer_harvest_all_years.json');
+    const deerCwdData = d3.json('data/deer_permit_area_cwd.json');
+      
+    Promise.all([deerHarvestData, deerCwdData]).then(drawMap);
+    
     const options = {
-      center: [0, 180],
-      zoom: 1.1,
+      center: [46.72, -94.68],
+      zoom: 6,
       zoomSnap: .1
     }
     const map = L.map('map', options);
@@ -94,6 +141,54 @@
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+
+    var legend = L.control({position: 'bottomright'});
+
+        legend.onAdd = function (map) {
+
+            var div = L.DomUtil.create('div', 'info legend'),
+                grades = ["Deer Permit Areas", "PAs, Reported CWD"],
+                labels = [];
+
+            // loop through grades and label with a colored circle for each grade
+            
+            for (var i = 0; i < grades.length; i++) {
+                div.innerHTML +=
+                    '<i class="circle" i style="background:' + getColor(grades[i]) + '"></i> ' +
+                    grades[i] + (grades[i +1] ? '  ' + '  ' + '<br>' : '');
+            };
+
+            
+            return div;
+        };
+
+        legend.addTo(map);
+      
+    function drawMap(data) {
+        
+        const deerHarvestData = data[0]
+        const deerCwdData = data[1]
+        
+        L.geoJSON(deerHarvestData, {
+            style: function (feature) {
+               return {color: 'red'};
+            },
+            onEachFeature: function (feature, layer) {
+              layer.bindPopup('<h4>'+ 'Permit Area ' + feature.properties.KILLBLOCK +'</h4><h5>Total Deer Harvest</h5>2009: '+feature.properties.TOTALHARV_2009+'<br>2010: '+feature.properties.TOTALHARV_2010+'<br>2011: '+feature.properties.TOTALHARV_2011+'<br>2010: '+feature.properties.TOTALHARV_2010+'<br>2011: '+feature.properties.TOTALHARV_2011+'<br>2012: '+feature.properties.TOTALHARV_2012+'<br>2013: '+feature.properties.TOTALHARV_2013+'<br>2014: '+feature.properties.TOTALHARV_2014+'</p>');
+            }
+        }).addTo(map);
+
+        L.geoJSON(deerCwdData, {
+            style: function (feature) {
+               return {color: 'yellow'};
+            },
+            onEachFeature: function (feature, layer) {
+              layer.bindPopup('<h4>'+ 'Permit Area ' +feature.properties.KILLBLOCK +'</h4><h5>Select Report*</h5><p>Age: '+feature.properties.age+'<br>Collection Method: '+feature.properties.collection_method+'<br>Sample Acquisition: '+feature.properties.sample_acquisition+'<br>Harvest Date: '+feature.properties.harvest_date+'<br>Sample Date: '+feature.properties.sample_date+'<br>Sex: '+feature.properties.sex+'<br>Year: '+feature.properties.year+'</p><h9>Refer to notebook for all reports from this permit area*</h9>');
+            }
+        }).addTo(map);
+
+        
+    }
   </script>
 </body>
 
