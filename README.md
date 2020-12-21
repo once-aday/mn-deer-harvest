@@ -18,7 +18,4 @@ A shared conda environment file, **mn-deer.yml**, to run this notebook is availa
 
 libraries of note installed:
 
-matplotlib
-geopandas
-mapclassify
-jupyter
+matplotlib,geopandas,mapclassify,jupyter
