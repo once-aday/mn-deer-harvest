@@ -1,4 +1,4 @@
-# Deer Harvest - Total Harvest Review and Possible Associations with Chronic Wasting
+# Deer Harvest - Total Harvest Review and Possible Associations with Chronic Wasting Disease
 
 ## Objectives
   - Compile data and observe state-wide trends on Total Deer Harvest
