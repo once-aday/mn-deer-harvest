@@ -10,3 +10,15 @@ This project utilizes jupyter notebook for initial data processing and for foste
 The subject of the data is Deer harvest in Minnesota; Looking at historical yearly datasets and how the available data we have on the devestating Chronic Wasting Disease can be integrated with it to drive insights and potential action.
 
 The Notebook has features to automatically generate maps based on a folder of shapefiles. In this case, yearly deer harvest data is released as individual shapefiles, so theoretically when 2020 data becomes available it can be placed in the 'notebooks/data/deer_harvest_shp' directory and the maps and stats for that year will be displayed in the notebook and web map.
+
+
+Notebook Environment:
+
+A shared conda environment file, **mn-deer.yml**, to run this notebook is available in the root directory of this repo.
+
+libraries of note installed:
+
+matplotlib
+geopandas
+mapclassify
+jupyter
