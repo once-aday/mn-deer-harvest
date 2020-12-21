@@ -58,6 +58,21 @@
           padding-top: 0px
 
         }
+        #toggle {
+          box-shadow: 5px 10px 18px black;
+          border-radius: 3%;
+          background-color: #fbff1c; /* Green */
+          border: none;
+          color: black;
+          padding: 5px 10px;
+          text-align: center;
+          text-decoration: none;
+          margin: 0 auto;
+          display: block;
+          font-size: 16px;
+          cursor: pointer;
+          left: 50%;
+        }
   </style>
 </head>
 
@@ -73,7 +88,9 @@
     <section class="row">
       <div class="col-12 col-md-8 col-lg-9 px-0">
         <div id="map"></div>
+        <button id="toggle">CWD On</button>
       </div>
+      
       <aside id="about" class="col-12 col-md-4 col-lg-3 text-white py-2 bg-secondary overflow-auto">
         <section>
           <h2>About this map</h2>
@@ -120,6 +137,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
 
+
   function getRadius(area) {
                 var radius = Math.sqrt(area/Math.PI);
                 return radius * .6;  
@@ -147,6 +165,10 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
+    
+
+    
+
     var legend = L.control({position: 'bottomright'});
 
         legend.onAdd = function (map) {
@@ -163,7 +185,6 @@
                     grades[i] + (grades[i +1] ? '  ' + '  ' + '<br>' : '');
             };
 
-            
             return div;
         };
 
@@ -183,7 +204,7 @@
             }
         }).addTo(map);
 
-        L.geoJSON(deerCwdData, {
+        var deerCwdLyr = L.geoJSON(deerCwdData, {
             style: function (feature) {
                return {color: 'yellow'};
             },
@@ -191,6 +212,21 @@
               layer.bindPopup('<h4>'+ 'Permit Area ' +feature.properties.KILLBLOCK +'</h4><h5>Select Report*</h5><p>Age: '+feature.properties.age+'<br>Collection Method: '+feature.properties.collection_method+'<br>Sample Acquisition: '+feature.properties.sample_acquisition+'<br>Harvest Date: '+feature.properties.harvest_date+'<br>Sample Date: '+feature.properties.sample_date+'<br>Sex: '+feature.properties.sex+'<br>Year: '+feature.properties.year+'</p><h9>Refer to notebook for all reports from this permit area*</h9>');
             }
         }).addTo(map);
+
+        $("#toggle").click(function(event) {
+        event.preventDefault();
+        if(map.hasLayer(deerCwdLyr)) {
+            $(this).css('background-color', '#ff0000')
+            $(this).css('color', 'black')
+            $(this).html("CWD Off");
+            map.removeLayer(deerCwdLyr);
+        } else {
+            map.addLayer(deerCwdLyr);        
+            $(this).css('background-color', '#fbff1c')
+            $(this).css('color', 'black')
+            $(this).html("CWD On");
+      }
+    });
 
         
     }
